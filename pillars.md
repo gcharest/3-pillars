@@ -1,4 +1,4 @@
-# GC Digital Pillars - Pilliers d'un GC Numerique
+# GC Digital Pillars
 
 <!--markdownlint-disable MD035-->
 
@@ -6,49 +6,128 @@
 
 ## Cloud
 
+Note:
+
+I won't sell you Cloud too much, there are many other sessions way more interesting than mine
+
 ------
 
-Someone else's computer!
+> Someone else's computer!
 
 Note:
 
-Not really, it's a bit more than just that...
+* Not really, it's a bit more complex than just that...
+* Yes, someone else's infrastructure
+* Also
+  * Maintenance
+  * Security
+  * Account management
+  * Billing
+  * Etc.
 
 ------
 
-Scalability
+### Scalability
+
+* Performance on demand
+  * Peak Times of the Week
+  * Seasonal cycles
+  * Short-term needs
 
 ------
 
-Automation
+### Automation
+
+* Rinse and repeat
+  * Standardisation
+  * Known deployment configurations
+* Infrastructure as code
 
 ------
 
-Time to market
+### Time to market
+
+Main benefit still is **Time to Market**
+
+* Around 5 minutes to spin a fully configured VM
+* Days, Weeks to have a physical server delivered and configured
+  * (Not bashing, just laws of physics)
 
 ------
+
+Cloud is a modern way to manage deployment of your solutions:
+
+> Leverage it
 
 ---
 
 ## DevOps
 
-------
+Note:
 
-3 ways
-
-------
-
-Break the silos
+Again, way more talented experts in other rooms here
 
 ------
 
-Cultural shift
+### 3 ways
+
+1. Accelerate the delivery of value
+2. Feedback Loops
+3. Experimentation and Continual Learning
+
+------
+
+#### Accelerate the delivery
+
+> Go from left to right as fast as possible
+
+1. Visualize the Work
+2. Minimize Work In Progress
+3. Automation Tools and Practices
+
+------
+
+#### Feedback Loops
+
+> Feedback from right to left as fast as possible
+
+* Continuous Integration (CI) and Continuous Delivery (CD)
+
+------
+
+1. Peer reviews (Pull Request!)
+2. Automated tests
+
+------
+
+#### Experimentation and Continual Learning
+
+> Safe place to try, experiment and learn
+
+------
+
+![Continuous Learning](learning.png)
+
+------
+
+This will need a cultural shift:
+
+You're work is not just a checklist, you must add value and you need to provide continuous feedback
 
 Note:
 
 * Understand that you can't do it all alone
 * We are all in it together
-* More releases supports our views of 
+* More releases supports our views of
+
+------
+
+References:
+
+* The DevOps Handbook:: How to Create World-Class Agility, Reliability, and Security in Technology Organizations
+  * by Gene Kim, Jez Humble, Patrick Debois, John Willis
+* [The 3 Ways for DevOps Practitioners](https://dzone.com/articles/the-3-ways-for-devops-practicioners)
+* [The Three Ways of DevOps](https://medium.com/touch4it/the-three-ways-of-devops-b90abe6168ac)
 
 ---
 
@@ -76,7 +155,7 @@ For the purpose of the Government of Canada, we consider the Open Source Initiat
 
 Note:
 
-* 
+Depends on type of licence (see below)
 
 ------
 
@@ -102,11 +181,9 @@ If you only have access to the source code.
 
 >Allow you to do pretty much the same but require you to redistribute on the same conditions under which you obtained it.
 
----
+------
 
-## First Challenge
-
-Choose an Open Source Licence:
+## Commonly known licences
 
 * MIT License (Expat)
 * Apache License 2.0 (Apache-2.0)
@@ -119,8 +196,8 @@ Use [TL;DR Legal](https://tldrlegal.com)
 
 Note:
 
-* Find out if it's a permissive or reciprocal licence
-* Provide the main conditions under which you can use it
+* First three are permissive
+* Last three are reciprocal
 
 ---
 
@@ -128,38 +205,11 @@ Note:
 
 It looks like a lot of work...
 
----
-
-## Second Challenge
-
-Build a Web application that generates surveys.
-
-The application should have:
-
-* User authentication
-* Graphical user interface to generate the surveys.
-* Administration interface
-* Security builtin
-
-Don't worry about the look and feel.
-
 ------
-
-You can just clone this repository
-
-[https://github.com/canada-ca/aia-eia.git](https://github.com/canada-ca/aia-eia.git)
-
-------
-
-And follow the instructions:
-
-[Instructions](instructions.md)
-
----
 
 ## Why
 
-It's in the Directive on Management of IT
+Well, it's in the updated Directive on Management of IT, so I guess you should it...
 
 ------
 
@@ -170,7 +220,7 @@ It's in the Directive on Management of IT
 
 ------
 
->Aspiring to world class is not enough, when everyone else starts there
+> Aspiring to world class is not enough, when everyone else starts there
 
 Jeff McAffer, formerly Director of Microsoft's Open Source Program Office
 
@@ -180,13 +230,13 @@ Jeff McAffer, formerly Director of Microsoft's Open Source Program Office
 
 ------
 
->96 percent of the scanned applications contain open source components, with an average 257 components per application, and that
+> 96 percent of the scanned [closed-source] applications contain open source components, with an average 257 components per application, and that
 
 HelpNetSecurity - [The percentage of open source code in proprietary apps is rising](https://www.helpnetsecurity.com/2018/05/22/open-source-code-security-risk/)
 
 ------
 
->The average percentage of open source in the codebases of the applications scanned grew from 36% last year to 57%, suggesting that a large number of applications now contain much more open source than proprietary code.
+> The average percentage of open source in the codebases of the applications scanned grew from 36% last year to 57%, suggesting that a large number of applications now contain much more open source than proprietary code.
 
 HelpNetSecurity - [The percentage of open source code in proprietary apps is rising](https://www.helpnetsecurity.com/2018/05/22/open-source-code-security-risk/)
 
@@ -278,19 +328,3 @@ Heather Meeker, _Open (Source) for Business: A Practical Guide to Open Source So
 ![compliant example](apache2-gpl-ok.png)
 
 Heather Meeker, _Open (Source) for Business: A Practical Guide to Open Source Software Licensing_, 51-56.
-
----
-
-## Third Challenge
-
-Find the errors
-
->Clone projects
-
-Note:
-
-Error 1: Known security vulnerability
-Error 2: Project online without an OSS licence
-Error 3: Incompatible Licence
-
-<!--markdownlint-enable MD035-->
